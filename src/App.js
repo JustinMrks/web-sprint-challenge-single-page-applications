@@ -92,7 +92,6 @@ const App = () => {
       toppings: ['pepperoni','peppers','onions','ham','chicken'].filter(top => formValues[top])
     }
     addPizza(newPizza)
-    history.push('/orders')
   }
   
   useEffect(() => {

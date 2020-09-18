@@ -32,6 +32,4 @@ describe('all MVP tests',() => {
         cy.get('[data-cy=submit]') //eslint-disable-line
             .click()
     })
-
-
 })

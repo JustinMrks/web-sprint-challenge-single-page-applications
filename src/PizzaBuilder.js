@@ -24,7 +24,7 @@ const PizzaBuilder = (props) => {
     return( 
         <div>
             <h2>Build Your Own Pizza</h2>
-            <form>
+            <form  onSubmit={onSubmit}>
                 <label>
                     <input
                         name='name'
@@ -108,7 +108,7 @@ const PizzaBuilder = (props) => {
                     />
                 </label>
                     <br/> <br/>
-                <button disabled={disabled} onSubmit={onSubmit} data-cy='submit'> submit </button>
+                <button disabled={disabled} data-cy='submit'> submit </button>
             </form>
         </div>
     )
